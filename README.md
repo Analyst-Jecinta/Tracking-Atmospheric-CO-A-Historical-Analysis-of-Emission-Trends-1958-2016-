@@ -49,6 +49,8 @@ climate_change_df = pd.read_csv("C:/Users/HP/OneDrive/Documents/_DATA SCIENCE BO
 climate_change_df
 
 ```
+
+
 ###  Data Analysis
 - **Time-Series Decomposition**: This was used to separate trend, seasonality, and residuals.
 
@@ -62,6 +64,10 @@ climate_change_df.head()
 
 
   ```
+![data analysis 3](https://github.com/user-attachments/assets/446bf28d-856e-4f8d-974d-464081ed4126)
+
+
+
 ###  Data Inspection(check for missing values)
 ```python
 # check for any missing value and column
@@ -98,14 +104,12 @@ climate_change_df
 # to confirm, that there are no more missing values
 climate_change_df.isna().any()
 ```
-```python
-import matplotlib.pyplot as plt 
 
-print("show")
-```
 ## DATA VISUALIZATION
 ```python
+
 # data visualization using the object oriented interface of matplotlib
+import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 
 # data visualization
@@ -130,6 +134,15 @@ plt.show()
 **Seasonal Patterns**: A regular saw-tooth pattern was observed, corresponding to seasonal plant activity (photosynthesis cycles).
 
 **Acceleration in Emissions**: Linear curve indicates steady growth and increasing acceleration in emissions, especially post-2000.
+### Recommendations
+- I strongly reconmmend  the global adoption of renewable energy sources.
+
+- I strongly reconmmend the Promotion of  global CO₂ emission monitoring for real-time policy response.
+
+- I strongly reconmmend that this  findings should be used as part of educational material in environmental science curricula.
+
+- I strongly reconmmend the Extension of this  study to include temperature anomaly data for correlation analysis.
+
 ### Recommendations
 - I strongly reconmmend  the global adoption of renewable energy sources.
 
