@@ -56,15 +56,15 @@ climate_change_df
 - **Time-Series Decomposition**: This was used to separate trend, seasonality, and residuals.
 
 - **Visualization:** Created line plots,  seasonal subseries plots, and anomaly detection visuals using Python library (Matplotlib)
-  ```python
-# converting the data set into time series decomposition
+```python
+  
+#converting the data set into time series decomposition
 
 climate_change_df = pd.read_csv("C:/Users/HP/OneDrive/Documents/_DATA SCIENCE BOOK CAMP TRANINIG/DATA SET/climate_change.csv",parse_dates =["date"], index_col = "date")
 
 climate_change_df.head()
 
-
-  ```
+```
 ![data analysis 3](https://github.com/user-attachments/assets/446bf28d-856e-4f8d-974d-464081ed4126)
 
 
@@ -76,11 +76,15 @@ climate_change_df.head()
 climate_change_df.isna().any()
 
 ```
+![valuess](https://github.com/user-attachments/assets/ce5eeae4-c6d5-4317-b8f5-d2304be7225a)
+
 ```python
 # counting the number of missing value
 
 climate_change_df.isna().sum()
 ```
+![counting missing values](https://github.com/user-attachments/assets/8f54bc8b-4a16-45d4-97b0-d58b2b16d3aa)
+
 ### Data Cleaning (handling missing values) 
 
 ```python
