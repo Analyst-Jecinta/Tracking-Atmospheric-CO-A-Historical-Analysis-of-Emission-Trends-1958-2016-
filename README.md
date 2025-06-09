@@ -49,6 +49,7 @@ climate_change_df = pd.read_csv("C:/Users/HP/OneDrive/Documents/_DATA SCIENCE BO
 climate_change_df
 
 ```
+![data loading 3](https://github.com/user-attachments/assets/1b815376-9408-4df2-976c-a431760561ee)
 
 
 ###  Data Analysis
