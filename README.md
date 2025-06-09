@@ -91,24 +91,33 @@ climate_change_df.isna().sum()
 climate_change_df.shape
 
 ```
+![data cleaning](https://github.com/user-attachments/assets/3f04e584-91e7-4711-92eb-68be3e5a0e2d)
+
 ```python
 climate_change_df["co2"].mean()
 
 ```
+![mean](https://github.com/user-attachments/assets/276e0ae7-787d-43da-9b7e-f749fffc5be9)
+
 ```python
 # filling the missing values with the mean value 352.32 on the co2 column
 climate_change_df = climate_change_df.fillna(352.32)
 climate_change_df.head()
 
 ```
+![filling](https://github.com/user-attachments/assets/97c17ba4-7a79-4b5e-b86d-b51aaea67f7f)
+
 ### Data Visualization
 ```python
 climate_change_df
 ```
+![Visuall](https://github.com/user-attachments/assets/86156d33-5b42-4f7f-a900-f305786695dc)
+
 ```pytho
 # to confirm, that there are no more missing values
 climate_change_df.isna().any()
 ```
+![confirm](https://github.com/user-attachments/assets/759f6e6a-7c12-4296-9325-c18815510098)
 
 ## DATA VISUALIZATION
 ```python
@@ -130,6 +139,9 @@ fig.suptitle ("The Atmospheric co2 Emmission Trends(1958-2016)")
 # to show the plot
 plt.show()
 ```
+![atmospheric co2](https://github.com/user-attachments/assets/f867b200-6c0e-47ac-af86-d6b6effa16ec)
+
+
 ## DATA INTERPRETATION
  The data visualization above shows that there is an overall steady increase of c02 emission from 958 to 2016
  
